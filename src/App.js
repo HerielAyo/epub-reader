@@ -11,7 +11,6 @@ const title = urlParams.get('title')
   return (
     <div style = {{ height:500, width: "100%"}}>
     <div style={{ position: "relative", height: "100%" }}>
-      <p>Epub Reader</p>
       {" "}
     
       <ReactReader 
