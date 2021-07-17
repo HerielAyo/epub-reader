@@ -5,8 +5,8 @@ import { ReactReader } from 'react-reader';
 function App() {
 
 const urlParams = new URLSearchParams(window.location.search);
-const pdfName = urlParams.get('pdfName');
 const title = urlParams.get('title')
+const pdfName = urlParams.get('pdfName');
 console.log('title is '+ title)
 console.log('pdf name is '+ pdfName)
 
