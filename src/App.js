@@ -7,6 +7,8 @@ function App() {
 const urlParams = new URLSearchParams(window.location.search);
 const pdfName = urlParams.get('pdfName');
 const title = urlParams.get('title')
+console.log('title is '+ title)
+console.log('pdf name is '+ pdfName)
 
   return (
     <div style = {{ height:500, width: "100%"}}>
