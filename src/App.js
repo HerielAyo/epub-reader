@@ -28,4 +28,5 @@ console.log('pdf name is '+ pdfName)
   );
 }
 
+//"proxy": "http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app"
 export default App;
