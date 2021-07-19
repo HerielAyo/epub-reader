@@ -15,7 +15,7 @@ console.log('pdf name is '+ pdfName)
     <div style={{ position: "relative", height: "100%" }}>
       {" "}
     
-      <ReactReader 
+      <ReactReader
         url={"/upload/epub/"+ pdfName
       }
         title={title}
