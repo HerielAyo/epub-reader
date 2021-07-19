@@ -29,4 +29,9 @@ console.log('pdf name is '+ pdfName)
 }
 
 //"proxy": "http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app"
+// "engines": {
+//   "npm": "6.14.5",
+//   "node": "12.18.1"
+// },
+
 export default App;
