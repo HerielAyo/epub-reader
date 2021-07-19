@@ -16,7 +16,7 @@ console.log('pdf name is '+ pdfName)
       {" "}
     
       <ReactReader
-        url={"/upload/epub/"+ pdfName
+        url={"http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app/upload/epub/"+ pdfName
       }
         title={title}
         location={"epubcfi(/6/2[cover]!/6)"}
