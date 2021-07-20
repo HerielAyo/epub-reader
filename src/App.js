@@ -14,7 +14,7 @@ const epub_file = urlParams.get('epub_file');
       {" "}
     
       <ReactReader
-        url={"http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app/api/api.php?epub_file=" + epub_file}
+        url={"https://ebook.codeafrica.co.tz//api/api.php?epub_file=" + epub_file}
         title={title}
         location={"epubcfi(/6/2[cover]!/6)"}
         locationChanged={epubcifi => console.log(epubcifi)}
@@ -26,3 +26,4 @@ const epub_file = urlParams.get('epub_file');
 }
 
 export default App;
+//https://ebook.codeafrica.co.tz/
