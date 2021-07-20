@@ -16,8 +16,7 @@ console.log('pdf name is '+ pdfName)
       {" "}
     
       <ReactReader
-        url={"http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app/upload/epub/"+ pdfName
-      }
+        url={"https://ebook.codeafrica.co.tz/upload/epub/" + pdfName}
         title={title}
         location={"epubcfi(/6/2[cover]!/6)"}
         locationChanged={epubcifi => console.log(epubcifi)}
@@ -27,11 +26,5 @@ console.log('pdf name is '+ pdfName)
     </div>
   );
 }
-
-//"proxy": "http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app"
-// "engines": {
-//   "npm": "6.14.5",
-//   "node": "12.18.1"
-// },
 
 export default App;
