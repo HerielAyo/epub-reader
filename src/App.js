@@ -6,7 +6,7 @@ function App() {
 
 const urlParams = new URLSearchParams(window.location.search);
 const title = urlParams.get('title')
-const epub_file = urlParams.get('epub_file');
+const epub_file = urlParams.get('pdfName');
 
   return (
     <div style = {{ height:500, width: "100%"}}>
