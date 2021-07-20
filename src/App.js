@@ -6,9 +6,7 @@ function App() {
 
 const urlParams = new URLSearchParams(window.location.search);
 const title = urlParams.get('title')
-const pdfName = urlParams.get('pdfName');
-console.log('title is '+ title)
-console.log('pdf name is '+ pdfName)
+const epub_file = urlParams.get('epub_file');
 
   return (
     <div style = {{ height:500, width: "100%"}}>
@@ -16,7 +14,7 @@ console.log('pdf name is '+ pdfName)
       {" "}
     
       <ReactReader
-        url={"https://ebook.codeafrica.co.tz/upload/epub/" + pdfName}
+        url={"http://34.222.32.153/android_ebook_app/admin_panel/android_ebook_app/api/api.php?epub_file=" + epub_file}
         title={title}
         location={"epubcfi(/6/2[cover]!/6)"}
         locationChanged={epubcifi => console.log(epubcifi)}
